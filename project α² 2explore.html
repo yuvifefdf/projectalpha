@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hover Shift Effect</title>
+    <style>
+        body {
+            background-image: url('file:///C:/Users/007/Downloads/2560x1440-blue-stained-glass-free-website-background-image.jpg');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 100vh;
+            padding-left: 50px;
+            transition: transform 0.3s ease;
+        }
+
+        .container {
+            font-size: 70px;
+            font-weight: bold;
+            padding-bottom: 70px;
+        }
+
+        .button {
+            font-size: 50px;
+            background: transparent;
+            color: white;
+            border: none;
+            padding-bottom: 20px;
+            transition: transform 0.3s ease;
+            text-align: left;
+            display: block;
+            cursor: pointer;
+        }
+
+        .button:hover {
+            transform: translateX(20px); 
+        }
+    </style>
+</head>
+<body>
+    <div class="container">Explore Our Solutions</div>
+
+    <button class="button" onclick="window.location.href='marketing.html'">Marketing</button>
+    <button class="button" onclick="window.location.href='finance.html'">Finance</button>
+
+</body>
+</html>
